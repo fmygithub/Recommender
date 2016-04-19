@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.paper.dao.CoauthorManyDAO">
+    <select id="listCoauthor" resultType="Coauthor">
+        SELECT * FROM coauthormany
+    </select>
+    <select id="findCoByNid" parameterType="String" resultType="Coauthor">
+        SELECT * FROM coauthormany
+        WHERE nid = #{nid}
+    </select>
+    <select id="findCoByWeight" parameterType="java.util.Map" resultType="Coauthor">
+        SELECT * FROM coauthormany
+        WHERE
+          nweight <![CDATA[>=]]> #{nweight}
+          AND
+          cweight <![CDATA[>=]]> #{cweight}
+    </select>
+</mapper>

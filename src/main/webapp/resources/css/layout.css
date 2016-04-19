@@ -1,0 +1,108 @@
+@charset "utf-8";
+#scrollnews{
+	position:absolute;
+	width:24500px;
+	height:70px;
+	overflow:hidden;
+	display:inline;
+	margin: 0px;
+	padding: 0px;
+}
+#scrollnews_con,
+#scrollnews_copymsgid{
+	width:24500px;
+	overflow:hidden;	
+}
+#scrollnews_con ul,
+#scrollnews_copymsgid ul{
+	float:left;
+	width:490px;
+	height:70px;
+	overflow:hidden;
+	list-style-image: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#scrollnews_con ul li,
+#scrollnews_copymsgid ul li{
+	float:left;
+	width:400px;
+	line-height:21px;
+	overflow:hidden;
+	font-size:12px;
+	background:url(../image/bluedot.gif) 0 8px no-repeat;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	list-style-image: none;
+	list-style-type: none;
+}
+#scrollnews_con ul li.img,
+#scrollnews_copymsgid ul li.img{
+	width:50px;
+	height:50px;
+	padding:0px;
+	display:inline;
+	margin-top: 9px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	box-shadow:1px 1px 2px #444;
+	-webkit-box-shadow:1px 1px 2px #444;
+	-moz-box-shadow:1px 1px 2px #444;
+	border-bottom:1px solid #003\9;
+	border-right:1px solid #003\9;
+	display: block;
+}
+#scrollnews_con ul li.last,
+#scrollnews_copymsgid ul li.last{
+	width:450px;
+	text-indent:10px;
+	padding: 0px;
+	line-height: 14px;
+	height: 14px;
+	text-decoration: none;
+}
+#scrolling{
+	position:fixed;
+	width:980px;
+	height:100px;
+	overflow:hidden;
+	bottom: 0px;
+	background-image: url(../images/Timeline_bg.gif);
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	padding: 0px;
+	background-color: #FFF;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.footer {
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #999;
+	text-decoration: none;
+	text-align: center;
+	padding: 0px;
+	clear: both;
+	height: 24px;
+	width: 980px;
+	display: inline;
+	position: absolute;
+	margin-top: 75px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.footer a {
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #666;
+	text-decoration: none;
+}

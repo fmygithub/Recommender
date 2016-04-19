@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.paper.dao.CounitDAO">
+    <select id="listAll" resultType="Counit">
+        SELECT * FROM counit
+    </select>
+    <select id="findByUnit" parameterType="String" resultType="Counit">
+        SELECT * FROM counit
+        WHERE unit = #{unit}
+    </select>
+    <select id="findByWeight" parameterType="java.util.Map" resultType="Counit">
+        SELECT * FROM counit
+        WHERE
+          uweight <![CDATA[>]]> #{uweight}
+          AND
+          cweight <![CDATA[>]]> #{cweight}
+    </select>
+</mapper>

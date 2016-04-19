@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE configuration
+                PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="cacheEnabled" value="false" />
+        <setting name="lazyLoadingEnabled" value="false" />
+        <setting name="aggressiveLazyLoading" value="false"/>
+    </settings>
+
+    <typeAliases>
+        <typeAlias alias="Author" type="com.paper.entity.Author"/>
+        <typeAlias alias="AuthorofKeyword" type="com.paper.entity.AuthorofKeyword"/>
+        <typeAlias alias="AuthortoTitle" type="com.paper.entity.AuthortoTitle"/>
+        <typeAlias alias="CitPaper" type="com.paper.entity.CitPaper"/>
+        <typeAlias alias="CitPaperSout" type="com.paper.entity.CitPaperSout"/>
+        <typeAlias alias="CommunityAuthor" type="com.paper.entity.CommunityAuthor"/>
+        <typeAlias alias="Coauthor" type="com.paper.entity.Coauthor"/>
+        <typeAlias alias="Counit" type="com.paper.entity.Counit"/>
+        <typeAlias alias="Group" type="com.paper.entity.Group"/>
+        <typeAlias alias="Links" type="com.paper.entity.Links"/>
+        <typeAlias alias="LinksofAuthor" type="com.paper.entity.LinksofAuthor"/>
+        <typeAlias alias="Main" type="com.paper.entity.Main"/>
+        <typeAlias alias="Nodes" type="com.paper.entity.Nodes"/>
+        <typeAlias alias="NodesofAuthor" type="com.paper.entity.NodesofAuthor"/>
+        <typeAlias alias="Numberofac" type="com.paper.entity.Numberofac"/>
+        <typeAlias alias="Paper" type="com.paper.entity.Paper"/>
+        <typeAlias alias="Papersim" type="com.paper.entity.Papersim"/>
+        <typeAlias alias="Relation" type="com.paper.entity.Relation"/>
+        <typeAlias alias="Unit" type="com.paper.entity.Unit"/>
+
+        <typeAlias alias="User" type="com.paper.entity.User"/>
+        <typeAlias alias="Favorites" type="com.paper.entity.Favorites"/>
+        <typeAlias alias="Attention" type="com.paper.entity.Attention"/>
+
+    </typeAliases>
+
+    <!--<plugins>-->
+        <!--<plugin interceptor="com.github.miemiedev.mybatis.paginator.OffsetLimitInterceptor">-->
+            <!--<property name="dialectClass" value="com.github.miemiedev.mybatis.paginator.dialect.OracleDialect"/>-->
+        <!--</plugin>-->
+    <!--</plugins>-->
+
+    <!--<mappers>-->
+        <!--<mapper resource="mybatis/productInfo.xml"/>-->
+    <!--</mappers>-->
+</configuration>

@@ -1,0 +1,1 @@
+ALTER TABLE paper CHANGE COLUMN abstract summary VARCHAR(10000);

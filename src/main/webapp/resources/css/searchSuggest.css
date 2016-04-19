@@ -1,0 +1,26 @@
+/* CSS Document */
+#suggest_ul{
+	width:392px;
+	max-height:220px;
+	height:auto;
+	margin:0px;
+	padding:0px;
+	border:1px solid #ccc;
+	list-style-type:none;
+	background:#fff;
+	position:absolute;
+	margin-left:50px;
+}
+
+#suggest_ul li{
+	padding-left:5px;
+	line-height:22px;
+	font-size:13px;
+	width:392px;
+	height:22px;
+	cursor:pointer;
+	overflow: hidden;
+	word-wrap: break-word;
+	word-break: break-all;
+	color: #000;
+}

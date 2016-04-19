@@ -1,0 +1,37 @@
+2016-03-31 17:15:11 INFO  ContextLoader:307 - Root WebApplicationContext: initialization started
+2016-03-31 17:15:25 INFO  XmlWebApplicationContext:513 - Refreshing Root WebApplicationContext: startup date [Thu Mar 31 17:15:25 CEST 2016]; root of context hierarchy
+2016-03-31 17:15:28 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2016-03-31 17:15:41 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [spring/applicationContext-mybatis.xml]
+2016-03-31 17:17:00 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [spring/jdbc.properties]
+2016-03-31 17:17:00 INFO  AutowiredAnnotationBeanPostProcessor:141 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-03-31 17:17:22 INFO  ContextLoader:347 - Root WebApplicationContext: initialization completed in 130447 ms
+2016-03-31 17:17:28 INFO  DispatcherServlet:489 - FrameworkServlet 'paper': initialization started
+2016-03-31 17:17:28 INFO  XmlWebApplicationContext:513 - Refreshing WebApplicationContext for namespace 'paper-servlet': startup date [Thu Mar 31 17:17:28 CEST 2016]; parent: Root WebApplicationContext
+2016-03-31 17:17:29 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/paper-servlet.xml]
+2016-03-31 17:17:31 INFO  AutowiredAnnotationBeanPostProcessor:141 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/author/searchAuthorCit] onto handler 'authorController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/author/searchAuthorCit.*] onto handler 'authorController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/author/searchAuthorCit/] onto handler 'authorController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/citPaper/searchCit] onto handler 'citPaperController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/citPaper/searchCit.*] onto handler 'citPaperController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/citPaper/searchCit/] onto handler 'citPaperController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:328 - Root mapping to handler 'indexController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/paper/searchCit] onto handler 'paperController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/paper/searchCit.*] onto handler 'paperController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/paper/searchCit/] onto handler 'paperController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/paper/papers/{pageNow}] onto handler 'paperController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/paper/papers/{pageNow}.*] onto handler 'paperController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/paper/papers/{pageNow}/] onto handler 'paperController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/user/login] onto handler 'userController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/user/login.*] onto handler 'userController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/user/login/] onto handler 'userController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/user/loginCheck] onto handler 'userController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/user/loginCheck.*] onto handler 'userController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/user/loginCheck/] onto handler 'userController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/user/register] onto handler 'userController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/user/register.*] onto handler 'userController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/user/register/] onto handler 'userController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/user/registerCheck] onto handler 'userController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/user/registerCheck.*] onto handler 'userController'
+2016-03-31 17:17:34 INFO  DefaultAnnotationHandlerMapping:341 - Mapped URL path [/user/registerCheck/] onto handler 'userController'
+2016-03-31 17:17:40 INFO  DispatcherServlet:508 - FrameworkServlet 'paper': initialization completed in 11668 ms

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.paper.dao.NumberofacDAO">
+    <select id="listAll" parameterType="Numberofac">
+        SELECT * FROM numberofac
+    </select>
+    <select id="findByNumber" parameterType="int">
+        SELECT * FROM numberofac
+        WHERE number <![CDATA[>=]]> #{number}
+    </select>
+    <select id="findByComid" parameterType="int" resultType="Numberofac">
+        SELECT * FROM numberofac
+        WHERE comid = #{comid}
+    </select>
+
+</mapper>

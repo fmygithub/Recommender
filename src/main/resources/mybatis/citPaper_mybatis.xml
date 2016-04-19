@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.paper.dao.CitPaperDAO">
+    <select id="listCitPaper" resultType="CitPaper">
+        SELECT *
+        FROM citpaper
+    </select>
+    <select id="findCitByPid" parameterType="int" resultType="CitPaper">
+        SELECT *
+        FROM citpaper
+        WHERE pid = #{pid}
+    </select>
+    <select id="findCitByRid" parameterType="int" resultType="CitPaper">
+        SELECT * FROM citpaper
+        WHERE rid = #{rid}
+    </select>
+    <select id="findCitByTitle" parameterType="String" resultType="CitPaper">
+        SELECT * FROM citpaper
+        WHERE rtitle = #{rtitle}
+    </select>
+</mapper>

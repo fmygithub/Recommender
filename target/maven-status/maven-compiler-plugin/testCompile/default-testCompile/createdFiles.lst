@@ -1,0 +1,14 @@
+com\paper\dao\TestAuthorDao.class
+com\paper\dao\TestCitPaperSoutDao.class
+com\paper\dao\TestCounitDAO.class
+com\paper\dao\TestAuthorToTitleDao.class
+com\paper\dao\TestNumberofacDAO.class
+com\paper\dao\TestPapersimDao.class
+com\paper\dao\TestCommunityAuthorDAO.class
+com\paper\dao\TestRelationDAO.class
+CharToInt.class
+com\paper\dao\TestCoauthorManyDAO.class
+com\paper\dao\TestPaperDao.class
+com\paper\dao\TestAuthorKeyWordDao.class
+com\paper\dao\TestCoauthorDAO.class
+com\paper\dao\TestUnitDAO.class

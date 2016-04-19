@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.paper.dao.UnitDAO">
+    <select id="listAllUnit" resultType="Unit" parameterType="int">
+        SELECT * FROM unit
+        ORDER BY uweight
+        LIMIT #{recordIndex}, 10
+    </select>
+    <select id="findById" parameterType="int" resultType="Unit">
+        SELECT * FROM unit WHERE id = #{id}
+    </select>
+    <select id="findByUnit" parameterType="String" resultType="Unit">
+        SELECT * FROM unit
+        WHERE unit = #{unit}
+    </select>
+    <select id="findByWeight" parameterType="Double" resultType="Unit">
+        SELECT * FROM unit
+        WHERE uweight <![CDATA[>]]> #{uweight}
+    </select>
+</mapper>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.paper.dao.AuthorofKeywordDAO">
+    <select id="findByAll" resultType="AuthorofKeyword">
+        SELECT *
+        FROM authorofkeyword
+    </select>
+    <select id="findByNid" parameterType="String" resultType="AuthorofKeyword">
+        SELECT *
+        FROM authorofkeyword
+        WHERE nid = #{nid}
+    </select>
+</mapper>
